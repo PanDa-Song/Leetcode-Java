@@ -1,0 +1,11 @@
+class Solution {
+    public int addDigits(int nums) {
+        if(nums == 0){
+            return 0;
+        }
+
+        return nums%9 == 0 ? 9 : nums % 9;
+    }
+}
+//runtime:1 ms
+//memory:33.8 MB
